@@ -1,0 +1,56 @@
+.sideNav_wrapper .logo_wrapper img {
+  width: 100%;
+}
+
+.sideNav_wrapper .logo_wrapper {
+  padding: 10px 30px;
+}
+
+.sideNav_wrapper .profile_wrapper {
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.sideNav_wrapper .profile_wrapper .profilepic_wrapper {
+  text-align: center;
+}
+.sideNav_wrapper .profile_wrapper .profilepic_wrapper img {
+  width: 70%;
+}
+
+.sideNav_wrapper .profile_wrapper .namaEmail_wrapper .nama_siswa {
+  font-size: 1.4em;
+  margin: 5px 0;
+  font-weight: 700;
+  color: #f5f5f5;
+}
+.sideNav_wrapper .profile_wrapper .namaEmail_wrapper .email_siswa {
+  margin: 5px 0;
+  font-weight: 500;
+  color: #f5f5f5;
+}
+
+hr {
+  margin: 10px 20px;
+}
+
+.sideNav_wrapper .navLink_wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 20px;
+}
+
+.sideNav_wrapper .navLink_wrapper a {
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 5px 0;
+  color: #f5f5f5;
+  text-decoration: none;
+  font-weight: 500;
+}
+.sideNav_wrapper .navLink_wrapper a:hover {
+  background-color: white;
+  color: #00a9e0;
+}

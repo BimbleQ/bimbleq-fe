@@ -1,0 +1,15 @@
+.tagihanCard {
+  background-color: white;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+}
+
+.tagihanCard h3 {
+  color: #ff8c00;
+}
+
+.tagihanCard p {
+  margin: 8px 0;
+}
