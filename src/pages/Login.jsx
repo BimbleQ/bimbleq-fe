@@ -18,11 +18,11 @@ const Login = () => {
 
             //redirect based on role user
             if (response.role === 'admin') {
-                navigate('/admin-dashboard');
+                navigate('/pages/dashboard');
             } else if (response.role === 'pengajar') {
-                navigate('/teacher-dashboard');
+                navigate('/pages/dashboard');
             } else if (response.role === 'siswa') {
-                navigate('/student-dashboard');
+                navigate('/pages/dashboard');
             }
         } catch (err) {
             setError(err); //show error jika login gagal
