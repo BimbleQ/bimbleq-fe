@@ -1,29 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Login from './pages/Login.jsx';
-import AdminDashboard from './pages/Admin.jsx';
-import TeacherDashboard from './pages/Teacher.jsx';
-import StudentDashboard from './pages/Student.jsx';
+import { Route, Routes } from "react-router-dom";
+// import SideNav from "./components/SideNav";
+import Pembayaran from "./pages/Pembayaran";
+import Dashboard from "./pages/Dashboard";
+import "./flex.css";
 
 function App() {
-
   return (
-      
-      <Router>
-        <Routes>
-            <Route path="/" element={<Login />} />
-            
-            <Route path='/pages/dashboard'element={<AdminDashboard />} />
-            <Route path='/pages/dashboard' element={<TeacherDashboard />} />
-            <Route path='/pages/dashboard' element={<StudentDashboard />} />
-        </Routes>
-      </Router>
-    
-  )
+    <>
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/pembayaran" element={<Pembayaran />} />
+      </Routes>
+      {/* <div className="flex_sidenav">
+        <div className="flex_left">
+          <SideNav />
+        </div>
+        <div className="flex_right">
+          <Pembayaran />
+          <Dashboard />
+        </div>
+      </div> */}
+    </>
+  );
 }
 
-export default App
+export default App;

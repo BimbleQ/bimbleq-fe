@@ -42,11 +42,7 @@ hr {
   margin: 30px 20px;
 }
 
-<<<<<<< HEAD
 .sideNav_wrapper .navLink_wrapper .link {
-=======
-.sideNav_wrapper .navLink_wrapper a {
->>>>>>> f6b2dcc72d6a8e24569e0732af5e9dfb976e6aa6
   padding: 10px 20px;
   border-radius: 10px;
   margin: 5px 0;
@@ -54,11 +50,7 @@ hr {
   text-decoration: none;
   font-weight: 500;
 }
-<<<<<<< HEAD
 .sideNav_wrapper .navLink_wrapper .link:hover {
-=======
-.sideNav_wrapper .navLink_wrapper a:hover {
->>>>>>> f6b2dcc72d6a8e24569e0732af5e9dfb976e6aa6
   background-color: white;
   color: #00a9e0;
 }

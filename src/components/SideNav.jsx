@@ -2,10 +2,7 @@ import React from "react";
 import Logo from "../assets/Logo.png";
 import ProfilePic from "../assets/profilePic.png";
 import "../sideNav.css";
-<<<<<<< HEAD
 import { Link } from "react-router-dom";
-=======
->>>>>>> f6b2dcc72d6a8e24569e0732af5e9dfb976e6aa6
 
 const SideNav = () => {
   return (
@@ -24,7 +21,6 @@ const SideNav = () => {
       </div>
       <hr />
       <div className="navLink_wrapper">
-<<<<<<< HEAD
         <Link className="link" to="/">
           {" "}
           Dashboard
@@ -33,11 +29,6 @@ const SideNav = () => {
         <Link className="link" to="/Pembayaran">
           Pembayaran
         </Link>
-=======
-        <a href="">Dashboard</a>
-        <a href="">Jadwal Kelas</a>
-        <a href="">Pembayaran</a>
->>>>>>> f6b2dcc72d6a8e24569e0732af5e9dfb976e6aa6
       </div>
     </div>
   );
