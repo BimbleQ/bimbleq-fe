@@ -1,0 +1,107 @@
+.dashboard_wrapper {
+  width: 90%;
+  margin: auto;
+  background-color: #f5f5f5;
+}
+
+.dashboard_wrapper h2 {
+  color: #00a9e0;
+}
+.dashboard_wrapper .namaSiswa {
+  color: #333333;
+}
+
+.dashboard_wrapper .jadwalKelas_wrapper .jadwalCard_wrapper {
+  display: flex;
+  column-gap: 20px;
+}
+
+.dashboard_wrapper .jadwalKelas_wrapper .jadwalCard_wrapper .kelasRegulerCard {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%;
+  border: 1px solid lightgray;
+}
+.dashboard_wrapper .jadwalKelas_wrapper .jadwalCard_wrapper .kelasPrivatCard {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%;
+  border: 1px solid lightgray;
+}
+
+.judulKelas {
+  color: #00a9e0;
+}
+
+.mapel,
+.namaGuru {
+  margin: 10px 0;
+}
+
+.dashboard_wrapper
+  .jadwalKelas_wrapper
+  .jadwalCard_wrapper
+  .kelasRegulerCard
+  .kelasReguler {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.dashboard_wrapper
+  .jadwalKelas_wrapper
+  .jadwalCard_wrapper
+  .kelasPrivatCard
+  .kelasPrivat {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.dashboard_wrapper
+  .jadwalKelas_wrapper
+  .jadwalCard_wrapper
+  .kelasRegulerCard
+  .kelasReguler
+  .kelasWaktuReguler {
+  display: flex;
+  justify-content: space-between;
+}
+
+.kelasWaktuReguler p,
+.kelasWaktuPrivat p {
+  margin: 0;
+}
+
+.dashboard_wrapper
+  .jadwalKelas_wrapper
+  .jadwalCard_wrapper
+  .kelasPrivatCard
+  .kelasPrivat
+  .kelasWaktuPrivat {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard_wrapper .pengumuman_wrapper .pengumumanCard_wrapper .pengumumanCard {
+  background-color: white;
+  padding: 20px 30px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+}
+
+.isiWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.judulPengumuman {
+  margin: 0 0 10px 0;
+}
+
+.isiWrapper p {
+  margin: 0;
+}
