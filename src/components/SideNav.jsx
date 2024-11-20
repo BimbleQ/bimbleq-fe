@@ -25,7 +25,9 @@ const SideNav = () => {
           {" "}
           Dashboard
         </Link>
-        <Link className="link">Jadwal Kelas</Link>
+        <Link className="link" to="/Jadwal">
+          Jadwal Kelas
+        </Link>
         <Link className="link" to="/Pembayaran">
           Pembayaran
         </Link>
