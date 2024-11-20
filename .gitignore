@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+App.jsx
+Main.jsx
+App.css
+package-lock.json
